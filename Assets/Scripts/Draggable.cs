@@ -5,10 +5,6 @@ using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
    
-    void Start() {
-        print("here");
-    }
-
     public void OnBeginDrag(PointerEventData eventData) {
         Debug.Log("onbegindrag");
     }

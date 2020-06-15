@@ -8,24 +8,17 @@ public class CardHolder : MonoBehaviour {
     [SerializeField] public GameObject blockingCard;
     [SerializeField] public Card thisCard;
     bool faceUp = false;
-
-    private void OnMouseDown() {
-        //print("MouseDown - just start drag");
-    }
-
-    private void OnMouseDrag() {
-        //print("mousedrag");
-    }
-
+    
     public void SetupCard() {
+        print("setupcard: "+thisCard.cardName);
         if (blockingCard == null) {
             FlipCard();
         }
     }
 
     void FlipCard() {
+        print("flip this bitch");
         faceUp = true;
-        //GetComponent<SpriteRenderer>().sprite = thisCard.cardImage;
         GetComponent<Image>().sprite = thisCard.cardImage;
     }
 
