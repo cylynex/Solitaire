@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour {
     public GameObject drawDeck;
 
     private void Start() {
-        print("here we go");
         SetupDeck();
         DealCards();
         SetupHolders();
@@ -31,12 +30,32 @@ public class GameManager : MonoBehaviour {
     }
 
     void DealCards() {
-        for(int i = 0; i < cardHolders.Length; i++) {
+        
+        /*for(int i = 0; i < cardHolders.Length; i++) {
             int cardToUse = Random.Range(0, cards.Count);
             cardHolders[i].GetComponent<CardHolder>().thisCard = cards[cardToUse];
             cards.RemoveAt(cardToUse);
+        }*/
+
+        for (int i = 0; i < columns.Length; i++) {
+            int startingCards = columns[i].GetComponent<Column>().startingCards;
+            print("populating column " + i + " - Gets cards: " +startingCards);
+            GiveColumnCards(columns[i], startingCards);
+
+
         }
     }
+
+    void GiveColumnCards(GameObject column, int numberOfCards) {
+        for(int i = 0; i < numberOfCards; i++) {
+            int cardToUse = Random.Range(0, cards.Count);
+            //cardHolders[i].GetComponent<CardHolder>().thisCard = cards[cardToUse];
+            column.GetComponent<Column>().cardsInColumn.Add(cards[cardToUse]);
+            column.GetComponent<Column>().AddCardToColumn(cards[cardToUse]);
+            cards.RemoveAt(cardToUse);
+        }
+    }
+
 
     void SetupHolders() {
         for (int i = 0; i < cardHolders.Length; i++) {

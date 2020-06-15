@@ -106,4 +106,5 @@ MonoBehaviour:
     cardName: 
     cardValue: 0
     cardSuit: 
+    cardColor: 
     cardImage: {fileID: 0}
