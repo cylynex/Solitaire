@@ -25,7 +25,8 @@ public class CardHolder : MonoBehaviour {
 
     void FlipCard() {
         faceUp = true;
-        GetComponent<SpriteRenderer>().sprite = thisCard.cardImage;
+        //GetComponent<SpriteRenderer>().sprite = thisCard.cardImage;
+        GetComponent<Image>().sprite = thisCard.cardImage;
     }
 
 }

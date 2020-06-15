@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
     public List<Card> cards = new List<Card>();
     public Card[] deckOfCards = new Card[52];
     public GameObject[] cardHolders;
+    public GameObject[] columns;
     public GameObject drawDeck;
 
     private void Start() {
@@ -21,6 +22,9 @@ public class GameManager : MonoBehaviour {
     }
 
     void SetupDeck() {
+
+        cardHolders = GameObject.FindGameObjectsWithTag("CardHolder");
+
         for(int i = 0; i < deckOfCards.Length; i++) {
             cards.Add(deckOfCards[i]);
         }
