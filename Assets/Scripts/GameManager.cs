@@ -13,6 +13,12 @@ public class GameManager : MonoBehaviour {
     public GameObject[] columns;
     public GameObject drawDeck;
 
+    [Header("End Spaces")]
+    public GameObject endHearts;
+    public GameObject endDiamonds;
+    public GameObject endClubs;
+    public GameObject endSpades;
+
     private void Start() {
         SetupDeck();
         DealCards();
