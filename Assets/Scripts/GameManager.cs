@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour {
     public GameObject[] cardHolders;
     public GameObject drawDeck;
 
-   
+    private void Start() {
+        print("here we go");
+    }
 
 }

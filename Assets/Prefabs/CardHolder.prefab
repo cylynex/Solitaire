@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575505021548041299}
   - component: {fileID: 1867832523234115495}
+  - component: {fileID: 7346867871710723793}
   m_Layer: 0
   m_Name: CardHolder
   m_TagString: Untagged
@@ -82,3 +83,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7346867871710723793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9101246044359963862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f6b2d16d9e84a4a9e0ca05b91ac323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockingCards: []
