@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour {
         print("here we go");
         SetupDeck();
         DealCards();
+        SetupHolders();
     }
 
     void SetupDeck() {
@@ -30,6 +31,12 @@ public class GameManager : MonoBehaviour {
             int cardToUse = Random.Range(0, cards.Count);
             cardHolders[i].GetComponent<CardHolder>().thisCard = cards[cardToUse];
             cards.RemoveAt(cardToUse);
+        }
+    }
+
+    void SetupHolders() {
+        for (int i = 0; i < cardHolders.Length; i++) {
+            cardHolders[i].GetComponent<CardHolder>().SetupCard();
         }
     }
 

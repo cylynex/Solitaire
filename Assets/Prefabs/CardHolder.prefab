@@ -8,9 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 575505021548041299}
+  - component: {fileID: 6897273941341828897}
   - component: {fileID: 1867832523234115495}
   - component: {fileID: 7346867871710723793}
+  - component: {fileID: 986950006077415382}
+  - component: {fileID: 6722876147677219015}
   m_Layer: 0
   m_Name: CardHolder
   m_TagString: Untagged
@@ -18,20 +20,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &575505021548041299
-Transform:
+--- !u!224 &6897273941341828897
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9101246044359963862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.64, y: 1.48, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5505257, y: 1.5505257, z: 1.5505257}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7.64, y: 1.48}
+  m_SizeDelta: {x: 0.81, y: 1.17}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1867832523234115495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -95,4 +102,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f6b2d16d9e84a4a9e0ca05b91ac323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockingCards: []
+  blockingCard: {fileID: 0}
+  thisCard:
+    cardName: 
+    cardValue: 0
+    cardSuit: 
+    cardImage: {fileID: 0}
+--- !u!114 &986950006077415382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9101246044359963862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b049c742c61e6644db3fceec698bdde9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &6722876147677219015
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9101246044359963862}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 1.17}
+    newSize: {x: 0.81, y: 1.17}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.81, y: 1.17}
+  m_EdgeRadius: 0
