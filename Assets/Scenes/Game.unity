@@ -338,6 +338,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 1134237631}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 1134237631}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -350,6 +355,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 575505021548041299, guid: 8819036d5a8baa343813b2f662522fe0,
     type: 3}
   m_PrefabInstance: {fileID: 55981159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &71888679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 706589713}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &250877948
 PrefabInstance:
@@ -421,6 +432,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 1436055762}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 1436055762}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -514,6 +530,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 794415043}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 794415043}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -603,6 +624,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 1814951888}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 1814951888}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -696,6 +722,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 1151599232}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 1151599232}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -779,6 +810,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 1076047166}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 1076047166}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -870,6 +906,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 1552628612}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 1552628612}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -1143,6 +1184,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 579349297}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 579349297}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -1315,6 +1361,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 2137312408}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 2137312408}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -1406,6 +1457,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 429059920}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 429059920}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -1489,6 +1545,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 378657870}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 378657870}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -1582,6 +1643,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 314396500}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 314396500}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -1667,6 +1733,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 250877950}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 250877950}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -1685,6 +1756,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
     type: 3}
   m_PrefabInstance: {fileID: 794415041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &814293785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 4444182943515707320}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &858834327
 PrefabInstance:
@@ -1756,6 +1833,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 560212861}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 560212861}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -2011,6 +2093,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 994003831}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 994003831}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -2100,6 +2187,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 268972174}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 268972174}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -2493,7 +2585,35 @@ MonoBehaviour:
     cardSuit: Diamonds
     cardImage: {fileID: 6063370347128411930, guid: 83719f1156fad9d49b1c66ae8d8ebcad,
       type: 3}
-  cardHolders: []
+  cardHolders:
+  - {fileID: 814293785}
+  - {fileID: 1688769345}
+  - {fileID: 1935252939}
+  - {fileID: 1967293841}
+  - {fileID: 71888679}
+  - {fileID: 1661593175}
+  - {fileID: 1435020624}
+  - {fileID: 1151599232}
+  - {fileID: 858834329}
+  - {fileID: 560212861}
+  - {fileID: 558226827}
+  - {fileID: 579349297}
+  - {fileID: 2137312408}
+  - {fileID: 314396500}
+  - {fileID: 1814951888}
+  - {fileID: 1132500128}
+  - {fileID: 994003831}
+  - {fileID: 429059920}
+  - {fileID: 1552628612}
+  - {fileID: 688139323}
+  - {fileID: 378657870}
+  - {fileID: 1076047166}
+  - {fileID: 1134237631}
+  - {fileID: 268972174}
+  - {fileID: 794415043}
+  - {fileID: 250877950}
+  - {fileID: 1436055762}
+  - {fileID: 518090794}
   drawDeck: {fileID: 0}
 --- !u!4 &1207812357
 Transform:
@@ -2591,6 +2711,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1435020624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 55981159}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1436055760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2661,6 +2787,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 518090794}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 518090794}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -2836,6 +2967,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[0]
       value: 
       objectReference: {fileID: 688139323}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 688139323}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -2854,6 +2990,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
     type: 3}
   m_PrefabInstance: {fileID: 1552628610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1661593175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 669265296}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1680747381
 PrefabInstance:
@@ -2932,6 +3074,11 @@ PrefabInstance:
       propertyPath: blockingCards.Array.data[1]
       value: 
       objectReference: {fileID: 560212861}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
+      value: 
+      objectReference: {fileID: 858834329}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: m_Name
@@ -2944,6 +3091,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 575505021548041299, guid: 8819036d5a8baa343813b2f662522fe0,
     type: 3}
   m_PrefabInstance: {fileID: 1680747381}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1688769345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 319917888}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1773657123
 PrefabInstance:
@@ -3015,6 +3168,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 558226827}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 558226827}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -3100,6 +3258,11 @@ PrefabInstance:
     - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
         type: 3}
       propertyPath: blockingCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 1132500128}
+    - target: {fileID: 7346867871710723793, guid: 8819036d5a8baa343813b2f662522fe0,
+        type: 3}
+      propertyPath: blockingCard
       value: 
       objectReference: {fileID: 1132500128}
     - target: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
@@ -3203,6 +3366,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1935252939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680747381}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1955845338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3285,6 +3454,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1967293841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9101246044359963862, guid: 8819036d5a8baa343813b2f662522fe0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1773657123}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2087359066
 GameObject:
   m_ObjectHideFlags: 0

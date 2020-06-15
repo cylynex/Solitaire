@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CardHolder : MonoBehaviour {
 
-    [SerializeField] public List<GameObject> blockingCards = new List<GameObject>();
+    [SerializeField] GameObject blockingCard;
     [SerializeField] public Card thisCard;
+    bool faceUp = false;
 
     private void OnMouseDown() {
         print("MouseDown - just start drag");
