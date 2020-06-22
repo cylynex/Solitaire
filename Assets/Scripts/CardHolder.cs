@@ -10,14 +10,12 @@ public class CardHolder : MonoBehaviour {
     bool faceUp = false;
     
     public void SetupCard() {
-        print("setupcard: "+thisCard.cardName);
         if (blockingCard == null) {
             FlipCard();
         }
     }
 
     void FlipCard() {
-        print("flip this bitch");
         faceUp = true;
         GetComponent<Image>().sprite = thisCard.cardImage;
     }

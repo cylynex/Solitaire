@@ -11,6 +11,10 @@ public class Column : MonoBehaviour {
 
     [SerializeField] GameObject cardHolder;
     [SerializeField] int currentNumCardsInColumn = 0;
+    
+    public int nextCardValue;
+    public string nextCardColor;
+
     private void Start() {
         topCard = new Vector2(0, 110);
         cardIncrement = new Vector2(0, -15);
@@ -24,10 +28,12 @@ public class Column : MonoBehaviour {
         currentNumCardsInColumn++;
 
         CheckBlockCards(thisCard);
+        UpdateBottomCard(thisCard);
 
         return thisCard;
     }
 
+    /***** CARD SETUP STUFF *****/
     Vector2 GetNextCardLocation() {
         float adjustment = topCard.y + (cardIncrement.y * currentNumCardsInColumn);
         return new Vector2(0, adjustment);
@@ -41,10 +47,40 @@ public class Column : MonoBehaviour {
     }
 
     public void SetupFaces() {
-        print("setup faces for a column");
         for(int i = 0; i < cardsInColumn.Count; i++) {
             cardsInColumn[i].GetComponent<CardHolder>().SetupCard();
         }
     }
+
+    void UpdateBottomCard(GameObject thisCard) {
+        int cardValue = thisCard.GetComponent<CardHolder>().thisCard.cardValue;
+        string cardColor = thisCard.GetComponent<CardHolder>().thisCard.cardColor;
+
+        if (cardColor == "Red") nextCardColor = "Black";
+        else nextCardColor = "Red";
+
+        nextCardValue = cardValue - 1;
+    }
+
+
+    private void OnCollisionStay2D(Collision2D collision) {
+        print("column being Hit by: " + collision.gameObject.GetComponent<CardHolder>().thisCard.cardValue);
+
+        GameObject newCard = collision.gameObject;
+        Card cardData = newCard.GetComponent<CardHolder>().thisCard;
+
+        newCard.GetComponent<BoxCollider2D>().enabled = true;
+
+        if (
+            cardData.cardColor == nextCardColor &&
+            cardData.cardValue == nextCardValue
+            ) {
+            print("Match OK");
+        }
+
+        newCard.GetComponent<BoxCollider2D>().enabled = false;
+
+    }
+
 
 }
